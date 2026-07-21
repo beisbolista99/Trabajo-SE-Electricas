@@ -1,0 +1,25 @@
+required_fields:
+  - proyecto
+  - subestacion
+  - codigo_documental
+  - titulo
+  - revision
+  - fecha
+  - disciplina
+  - tipo_documento
+  - estado_documental
+  - paginas_o_laminas
+  - fuente
+  - nivel_confianza
+
+project_fields:
+  proyecto: "PENDIENTE DE VALIDAR"
+  subestacion: "PENDIENTE DE VALIDAR"
+  cliente: "PENDIENTE DE VALIDAR"
+  ubicacion: "PENDIENTE DE VALIDAR"
+  tension_at: "PENDIENTE DE VALIDAR"
+  tension_mt: "PENDIENTE DE VALIDAR"
+  responsable_revision: "PENDIENTE DE VALIDAR"
+  fecha_creacion: "PENDIENTE DE VALIDAR"
+  notas: "No usar antecedentes de otros proyectos sin validacion expresa."
+

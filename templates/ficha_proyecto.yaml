@@ -1,0 +1,11 @@
+proyecto: "PENDIENTE DE VALIDAR"
+subestacion: "PENDIENTE DE VALIDAR"
+cliente: "PENDIENTE DE VALIDAR"
+ubicacion: "PENDIENTE DE VALIDAR"
+tension_at: "PENDIENTE DE VALIDAR"
+tension_mt: "PENDIENTE DE VALIDAR"
+responsable_revision: "PENDIENTE DE VALIDAR"
+fecha_creacion: "PENDIENTE DE VALIDAR"
+estado: "PENDIENTE"
+regla_no_mezclar: "No reutilizar datos de otra subestacion sin autorizacion expresa."
+

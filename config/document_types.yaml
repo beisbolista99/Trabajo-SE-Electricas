@@ -1,0 +1,18 @@
+document_types:
+  plano:
+    carpetas_sugeridas: ["planos"]
+    requiere_inspeccion_visual: true
+  memoria_calculo:
+    carpetas_sugeridas: ["memorias_calculo"]
+    requiere_recalculo: true
+  especificacion_tecnica:
+    carpetas_sugeridas: ["especificaciones_tecnicas"]
+  hctg:
+    carpetas_sugeridas: ["hctg"]
+  catalogo:
+    carpetas_sugeridas: ["catalogos"]
+  comentario_cliente:
+    carpetas_sugeridas: ["comentarios_cliente"]
+  otro:
+    carpetas_sugeridas: ["otros"]
+

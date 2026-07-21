@@ -1,0 +1,15 @@
+__pycache__/
+node_modules/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+*.pyc
+*.pyo
+*.log
+*.tmp
+*.bak
+~$*.xlsx
+projects/*/00_entrada/originales/*
+!projects/**/.gitkeep

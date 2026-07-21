@@ -1,0 +1,36 @@
+area_cable:
+  formula: "A_cable = pi * (D_exterior / 2)^2"
+  advertencia: "No usar seccion nominal de cobre para ocupacion de ductos."
+
+area_ducto:
+  formula: "A_ducto = pi * ((D_exterior_ducto - 2 * espesor) / 2)^2"
+
+ocupacion:
+  formula: "ocupacion = area_total_cables / (cantidad_ductos * area_util_ducto)"
+  limites_por_defecto:
+    un_conductor: 0.50
+    dos_o_mas_conductores: 0.33
+
+clasificacion:
+  regla: "Clasificar por funcion, no solo por calibre."
+  control_y_proteccion:
+    - TTCC
+    - TTPP
+    - medicion
+    - protecciones
+    - senalizacion
+    - alarmas
+    - mandos
+    - disparos
+    - UCP
+    - reles
+  fuerza_auxiliar:
+    - alimentaciones CA
+    - alimentaciones CC
+    - alumbrado
+    - calefaccion
+    - ventilacion
+    - motores
+    - accionamientos
+    - tableros SSAA
+

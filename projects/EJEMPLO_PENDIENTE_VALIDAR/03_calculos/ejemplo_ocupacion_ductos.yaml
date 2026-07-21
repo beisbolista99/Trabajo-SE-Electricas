@@ -1,0 +1,16 @@
+descripcion: "Ejemplo minimo de calculo, sin asociacion a proyecto real."
+estado_fuente: "PENDIENTE DE VALIDAR"
+entradas:
+  diametro_cable_mm: 16.5
+  cantidad_cables: 2
+  diametro_exterior_ducto_mm: 110.0
+  espesor_ducto_mm: 5.3
+  cantidad_ductos: 1
+  limite_ocupacion: 0.33
+resultados_esperados:
+  area_unitaria_cable_mm2: 213.82
+  area_total_cables_mm2: 427.65
+  area_util_ducto_mm2: 7760.83
+  ocupacion_porcentaje: 5.51
+  estado: "RECALCULADO"
+

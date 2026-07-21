@@ -1,0 +1,12 @@
+confidence_levels:
+  CONFIRMADO:
+    descripcion: "Aparece expresamente en un documento."
+  RECALCULADO:
+    descripcion: "Se obtuvo matematicamente desde datos visibles."
+  INFERIDO:
+    descripcion: "Es tecnicamente razonable, pero no aparece expresamente."
+  PENDIENTE:
+    descripcion: "Requiere validar con plano, memoria, catalogo o proyectista."
+  INCONSISTENTE:
+    descripcion: "Existe una diferencia interna o contradiccion documental."
+
